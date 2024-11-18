@@ -8,5 +8,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mocker": "^0.1.2",
+    "mongo": "^0.1.0",
+    "mongoose": "^8.8.1",
+    "multer": "^1.4.5-lts.1"
+  }
 }
