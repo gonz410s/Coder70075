@@ -28,7 +28,16 @@ const createAdoption = async(req,res)=>{
 }
 
 export default {
-    createAdoption,
-    getAllAdoptions,
-    getAdoption
-}
+    getAllAdoptions: (req, res) => {
+        // lógica para obtener todas las adopciones
+        res.send('Lista de adopciones');
+    },
+    getAdoption: (req, res) => {
+        // lógica para obtener una adopción por ID
+        res.send('Adopción encontrada');
+    },
+    createAdoption: (req, res) => {
+        // lógica para crear una adopción
+        res.send('Adopción creada');
+    }
+};
